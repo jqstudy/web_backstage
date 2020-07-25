@@ -1,0 +1,9 @@
+body {
+    background-color: #f2f3f5;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.layui-card-body {
+    width: 500px;
+}
