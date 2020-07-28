@@ -3,7 +3,7 @@
 //在这个函数中，可以拿到我们给ajax提供的地址
 $.ajaxPrefilter(function(options) {
     //在发起请求前同意地址路径
-    options.url = 'http://ajax.frontend.itheima.net' + options.url;
+    options.url = 'http://www.liulongbin.top:3007' + options.url;
     //设置 headers 请求头
     if (options.url.indexOf('/my/') !== -1) {
         options.headers = {

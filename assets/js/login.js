@@ -60,6 +60,7 @@ $(function() {
     //设置登录接口
     $('#form-login').on('submit', function(e) {
         e.preventDefault();
+
         $.ajax({
             type: 'post',
             url: '/api/login',
@@ -74,6 +75,8 @@ $(function() {
                 localStorage.setItem('token', res.token);
                 //跳转到index
                 location.href = '/index.html';
+                console.log('ok');
+
 
             }
 
